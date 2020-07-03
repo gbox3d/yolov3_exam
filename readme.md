@@ -22,7 +22,7 @@ wget -P model_data https://pjreddie.com/media/files/yolov3.weights
 wget -P model_data https://pjreddie.com/media/files/yolov3-tiny.weights
 ```
 
-- 데이터셋 구성을 다운로드킷 받기 (옵션)  
+- 데이터셋 구성을 위한 다운로드킷 받기 (옵션)  
 ```
 git clone https://github.com/pythonlessons/OIDv4_ToolKit
 ```

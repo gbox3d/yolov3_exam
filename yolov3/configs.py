@@ -34,8 +34,8 @@ TRAIN_CHECKPOINTS_FOLDER    = "checkpoints"
 TRAIN_MODEL_NAME            = "yolov3_custom"
 # TRAIN_LOAD_IMAGES_TO_RAM    = False # faster training, but need more RAM
 TRAIN_LOAD_IMAGES_TO_RAM    = True # faster training, but need more RAM
-# TRAIN_BATCH_SIZE            = 8
-TRAIN_BATCH_SIZE            = 64
+TRAIN_BATCH_SIZE            = 8
+# TRAIN_BATCH_SIZE            = 64
 TRAIN_INPUT_SIZE            = 416
 TRAIN_DATA_AUG              = True
 TRAIN_TRANSFER              = False
@@ -43,8 +43,8 @@ TRAIN_FROM_CHECKPOINT       = False # "checkpoints/yolov3_custom_2"
 TRAIN_LR_INIT               = 1e-4
 TRAIN_LR_END                = 1e-6
 TRAIN_WARMUP_EPOCHS         = 2
-TRAIN_EPOCHS                = 25
-# TRAIN_EPOCHS                = 100
+# TRAIN_EPOCHS                = 25
+TRAIN_EPOCHS                = 100
 
 # TEST options
 # TEST_ANNOT_PATH             = "mnist/mnist_test.txt"

@@ -2,3 +2,4 @@ log/
 model_data/
 OID/
 yolov3/__pycache__/
+checkpoints/
